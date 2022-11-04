@@ -1,4 +1,3 @@
-# Copied from https://github.com/open-telemetry/opentelemetry-ruby/tree/main/examples/otel-collector
 receivers:
   otlp:
     protocols:
