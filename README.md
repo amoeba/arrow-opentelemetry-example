@@ -126,7 +126,7 @@ Last, build PyArrow and install into the Conda environment:
 
 ```
 python setup.py build_ext --inplace
- python -m pip install -e . --no-build-isolation
+python -m pip install -e . --no-build-isolation
 ```
 
 At this point, our Conda environment has our custom build of libarrow and a build of PyArrow that knows how to use it.
